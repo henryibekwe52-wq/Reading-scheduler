@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reading Scheduler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Reading Time Scheduler</h1>
+
+    <form id="schedule-form">
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" required />
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" required />
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" required />
+
+      <label for="duration">Duration (Hours):</label>
+      <input type="number" id="duration" Hours="1" required />
+
+      <button type="submit">Add Schedule</button>
+    </form>
+
+    <h2>Your Reading Schedule</h2>
+    <ul id="schedule-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+<!-- footer design -->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; <span id="copyrightYear"></span> by Ibekwe E. C. H. | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+
+<!-- scroll reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- typed js -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- custom js -->
+<script src="js/script.js"></script>
+</body>
+</html>
